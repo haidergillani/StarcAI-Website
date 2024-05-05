@@ -35,7 +35,8 @@
             </div>
             <div class="buttons">
                 <button class="features2" style="left:35% ;"> DEMO 
-                    <span style="font-size: 40px;"> &#8599</span> </button>
+                    <span style="font-size: 40px;"> &#8599</span> 
+                </button>
                 <button class="features1" id="feature-button">FEATURES</button>
             </div>
         </div>
@@ -133,20 +134,21 @@
         position: relative;
         text-align: center;">
             <button id="replace-video-button">
+                Original
+            </button>
+            <button id="replace-video-button2">
                 Rewrite
             </button>
         </div>
         <script>
             document.getElementById("replace-video-button").addEventListener("click", () => {
+                document.getElementById("video").src = "./assets/pessi.mp4"
+                // console.log("test")
+            });
+            document.getElementById("replace-video-button2").addEventListener("click", () => {
                 document.getElementById("video").src = "./assets/opti.mp4"
                 // console.log("test")
             });
-            let clip = document.querySelector(".video")
-            clip.addEventListener("mouseover", function (e) {
-                clip.play();
-            })
-
-
         </script>
         <!-- <video src="./assets/optimism.mp4" controls></video> -->
         <!-- </div>
@@ -159,6 +161,32 @@
         <div class="divrelative">
             <div class="divscrollbar-hide">
                 <div class="divflex">
+                    
+                    <div class="divappearance-none1">
+                        <div class="article1">
+                            <div class="adam-harrison-review-165d80cb0"></div>
+                            <div class="divp-5">
+                                <div class="p2">
+                                    <div class="super-impressed-taxgpt-container">
+                                        <p class="loved-by-student">
+                                            StarcAI is a great value in communicating with investors,
+                                            when securing the deal, and for subsequent communications
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="ptext-sm2">
+                                    <b class="laura-haleydt-brand-container">
+                                        <p class="loved-by-student">
+                                            Mo Nafisi,
+                                        </p>
+                                        <p class="loved-by-student">Founder at Cavalla</p>
+                                    </b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="divappearance-none">
                         <div class="article">
                             <div class="laura-h-review-7a78806077png"></div>
@@ -166,23 +194,19 @@
                                 <div class="p">
                                     <div class="super-impressed-taxgpt-container">
                                         <p class="loved-by-student">
-                                            super impressed! taxGpt is a user
+                                            StarcAI is what Wall Street needed from ChatGPT or Grammarly.
+                                            <br><br>
                                         </p>
-                                        <p class="loved-by-student">
-                                            friendly design makes answering
-                                        </p>
-                                        <p class="loved-by-student">
-                                            tax questions so easy
-                                        </p>
+
                                     </div>
                                 </div>
                                 <div class="ptext-sm">
                                     <b class="laura-haleydt-brand-container">
                                         <p class="loved-by-student">
-                                            Laura Haleydt, Brand Marketing
+                                            Kashif Ali,
                                         </p>
                                         <p class="loved-by-student">
-                                            Manager, Carlsberg Importers
+                                            CEO and CoFounder of TaxGPT
                                         </p>
                                     </b>
                                 </div>
@@ -191,64 +215,7 @@
                         <img class="screenshot-2024-03-23-155606-1" alt=""
                             src="./public/screenshot-20240323-155606-1@2x.png" />
                     </div>
-                    <div class="divappearance-none1">
-                        <div class="article1">
-                            <div class="max-alter-review-8c474cdd1apn"></div>
-                            <div class="divp-5">
-                                <div class="p1">
-                                    <div class="super-impressed-taxgpt-container">
-                                        <p class="loved-by-student">starcAI has been</p>
-                                        <p class="loved-by-student">
-                                            game-changing product. highly
-                                        </p>
-                                        <p class="loved-by-student">
-                                            recommended for anyone doing
-                                        </p>
-                                        <p class="loved-by-student">taxes.</p>
-                                    </div>
-                                </div>
-                                <div class="ptext-sm1">
-                                    <b class="laura-haleydt-brand-container">
-                                        <p class="loved-by-student">
-                                            Max Alter, Director of Audience
-                                        </p>
-                                        <p class="loved-by-student">Development, NBC</p>
-                                    </b>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="divappearance-none1">
-                        <div class="article1">
-                            <div class="adam-harrison-review-165d80cb0"></div>
-                            <div class="divp-5">
-                                <div class="p2">
-                                    <div class="super-impressed-taxgpt-container">
-                                        <p class="loved-by-student">
-                                            StarcAI saves us valuable time
-                                        </p>
-                                        <p class="loved-by-student">
-                                            and money. It's allowed us to do
-                                        </p>
-                                        <p class="loved-by-student">
-                                            enhanced stock pricing
-                                        </p>
-                                        <p class="loved-by-student">
-                                            ls in just a few clicks.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="ptext-sm2">
-                                    <b class="laura-haleydt-brand-container">
-                                        <p class="loved-by-student">
-                                            Adam Harrison, VP of Marketing,
-                                        </p>
-                                        <p class="loved-by-student">Weavr</p>
-                                    </b>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="divappearance-none">
                         <div class="article3">
                             <div class="chris-y-review-6d33062ed8png"></div>
@@ -256,23 +223,48 @@
                                 <div class="p3">
                                     <div class="super-impressed-taxgpt-container">
                                         <p class="loved-by-student">
-                                            As a tax professional StarcA
-                                        </p>
-                                        <p class="loved-by-student">
-                                            I has become an invaluable
-                                        </p>
-                                        <p class="loved-by-student">
-                                            resoresource .it si accurate ,timely
-                                        </p>
-                                        <p class="loved-by-student">
-                                            and serves my clients better
+                                            StarcAI's biggest edge is that it understands what is business language and 
+                                            how shareholders perceive company reports.
                                         </p>
                                     </div>
                                 </div>
-                                <b class="chris-y-content">Chris Y. Content Creator</b>
+                                <div class="ptext-sm2">
+                                    <b class="laura-haleydt-brand-container">
+                                        <p class="loved-by-student">
+                                            Viktoriia Stepanenko,
+                                        </p>
+                                        <p class="loved-by-student">Partner Relations at Network.VC</p>
+                                    </b>
+                                </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="divappearance-none1">
+                        <div class="article1">
+                            <div class="max-alter-review-8c474cdd1apn"></div>
+                            <div class="divp-5">
+                                <div class="p1">
+                                    <div class="super-impressed-taxgpt-container">
+                                        <p class="loved-by-student"> I love that the user gets a quantified percentage grade, 
+                                            as well as highlighting the key areas of improvement” 
+                                        
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="ptext-sm1">
+                                    <b class="laura-haleydt-brand-container">
+                                        <p class="loved-by-student">
+                                            Eduardo Benetti,
+                                        </p>
+                                        <p class="loved-by-student">Product Manager at Microsoft</p>
+
+                                    </b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -282,33 +274,33 @@
         <h1>Our Team</h1>
         <div class="team-story">
             <div class="team-member">
-                <img src="https://cutt.ly/Hwn6Y0NL" alt="Team Member 1">
-                <h3>John Doe</h3>
+                <img src="assets/saad.jpeg" alt="Team Member 1">
+                <h3>Saad Asad</h3>
                 <p class="role">CTO</p>
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-linkedin"></a>
+                <a href="https://www.linkedin.com/in/saad-asad-836b82216/" class="fa fa-linkedin"></a>
             </div>
             <div class="team-member">
-                <img src="https://cutt.ly/Hwn6Y0NL" alt="Team Member 2">
-                <h3>John Doe</h3>
+                <img src="assets/haider.JPG" alt="Team Member 2">
+                <h3>Haider Gillani</h3>
                 <p class="role">CEO</p>
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-linkedin"></a>
+                <a href="https://haidergillani.com/" class="fa fa-globe"></a>
+                <a href="https://www.linkedin.com/in/haider-gillani-b87b90210/" class="fa fa-linkedin"></a>
             </div>
             <div class="team-member">
-                <img src="https://cutt.ly/Hwn6Y0NL" alt="Team Member 3">
-                <h3>John Doe</h3>
+                <img src="assets/haneen.jpeg" alt="Team Member 3">
+                <h3>Haneen Azhar</h3>
                 <p class="role">CPO</p>
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-linkedin"></a>
+                <a href="https://www.linkedin.com/in/haneenazhar/" class="fa fa-linkedin"></a>
             </div>
         </div>
     </div>
     </div>
 
+
+<!--     <div>>
+        <img src="assets/teamimage.jpeg" alt="" style="width: 100%;height: 90%;">
+    </div>
+--> 
     <div class="FAQ-box">
         <link rel="stylesheet" href="FAQ.css">
         <div class="accordion-body">
@@ -317,15 +309,15 @@
                 <hr>
                 <div class="FAQcontainer">
                     <div class="label">What's in it for me?</div>
-                    <div class="content">Helps companies build investor confidence and trust.
+                    <div class="content">StarcAI helps companies build investor confidence and trust.
                     </div>
                 </div>
                 <hr>
                 <div class="FAQcontainer">
                     <div class="label">What is StarcAI?</div>
                     <div class="content">StarcAI is a B2B software that helps companies communicate better with their investors and the market.
-                        Companies use StarcAI to increase market optimism and stakeholder trust in their business by changing the keywords and phrasing
-                        of financial reports and letters to stakeholders. Our advanced sentiment analysis and proprietary LLM help a company induce desired reactions
+                        Companies use StarcAI to increase market optimism and stakeholder trust in their business through financial reports and 
+                        letters to stakeholders. Our advanced sentiment analysis and proprietary LLM help a company induce desired reactions
                         in its investors, leading to an empirically verified 31% increase in investor confidence and a 22% increment in investment likelihood
                         for StarcAI rewritten text compared to the original company-generated text.
                     </div>
