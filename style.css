@@ -12,7 +12,7 @@
 .faq{
   font-size: 45px;
   text-align: center;
-  font-family: 'ROBOTO SLAB';}
+  font-family: 'ROBOTO';}
 
 .p {
     width: 234px;
@@ -24,14 +24,7 @@
     padding: 0 17px 0 0;
     box-sizing: border-box;
   }
-
-  .max-alter-review-8c474cdd1apn {
-    width: 274px;
-    position: relative;
-    background-color: var(--color-deepskyblue);
-    height: 156px;
-    max-width: 274px;
-  }
+  
   .p1 {
     width: 234px;
     flex-direction: row;
@@ -76,20 +69,28 @@
     line-height: 100px;
     font-weight: bold;
     text-align: center;
-    font-size: 72px;
+    font-size: 60px;
+    padding-top: 2%;
+    padding-bottom: 0px;
+    letter-spacing: normal;
     color: #342b2b;
-    font-family: var(--font-roboto-slab);
-    margin: 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px;
 }
 
 .sub-heading-page2 {
-    text-align: center;
-    font-size: var(--font-size-17xl);
-    color: var(--color-black);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: var(--font-size-17xl);
+  font-weight: 500;
+  color: var(--color-black);
+  padding-top: 0px;
+  letter-spacing: normal;
+  line-height: 1.5; /* Increase line spacing */
 }
 
 .image1 {
-    /* padding: 20px; */
+    padding-bottom: 50px;
     width: 1032.2px;
     border-radius: var(--br-31xl);
     /* height: 520px; */
@@ -182,6 +183,7 @@
     align-items: flex-start;
     margin-left: 7%;
     padding: var(--padding-61xl) 0 0.000030517578125px;
+    padding-left: 5%;
     text-align: left;
     font-size: var(--small-text-size);
     color: var(--color-darkslategray-200);
@@ -194,18 +196,11 @@
     z-index: 0;
   }
 
-.laura-h-review-7a78806077png {
-    width: 274px;
-    position: relative;
-    background-color: #e37bdf;
-    height: 156px;
-    max-width: 274px;
-  }
 
-  .adam-harrison-review-165d80cb0 {
+  .Review-3 {
     width: 274px;
     position: relative;
-    background-color: #d02727;
+    background-color: #000e22;
     height: 156px;
     max-width: 274px;
   }
@@ -219,8 +214,21 @@
     line-height: 60px;
     font-weight: 500;
   }
-  #replace-video-button{
-    background-color: grey;
+  #replace-video-button1{
+    background-color: rgb(70, 7, 7);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.25s ease;
+    margin: 10px;
+  }
+
+  #replace-video-button2{
+    background-color: rgb(0, 85, 23);
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -231,6 +239,7 @@
     transition: 0.25s ease;
     margin: 10px;
   }
+
   .divmx-auto,
   .heading-2 {
     width: 810.7px;
@@ -246,10 +255,10 @@
     justify-content: flex-start;
     padding: 0 64px;
   }
-  .laura-h-review-7a78806077png {
+  .Review-1 {
     width: 274px;
     position: relative;
-    background-color: #e37bdf;
+    background-color: #0a2d02;
     height: 156px;
     max-width: 274px;
   }
@@ -317,10 +326,10 @@
     justify-content: flex-start;
   }
   
-  .max-alter-review-8c474cdd1apn {
+  .Review-2 {
     width: 274px;
     position: relative;
-    background-color: var(--color-deepskyblue);
+    background-color: #000000;
     height: 156px;
     max-width: 274px;
   }
@@ -364,13 +373,7 @@
     flex-shrink: 0;
     flex-direction: row;
   }
-  .adam-harrison-review-165d80cb0 {
-    width: 274px;
-    position: relative;
-    background-color: #d02727;
-    height: 156px;
-    max-width: 274px;
-  }
+
   .p2,
   .ptext-sm2 {
     width: 234px;
@@ -388,10 +391,10 @@
     font-size: var(--font-size-sm);
     color: var(--color-gray-100);
   }
-  .chris-y-review-6d33062ed8png {
+  .Review-4 {
     width: 274px;
     position: relative;
-    background-color: #859f4b;
+    background-color: #ffffff;
     height: 156px;
     max-width: 274px;
   }
@@ -480,15 +483,16 @@
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .2 em; /* Adjust as needed */
     animation: 
-      typing 6s steps(40, end),
-      remove-caret 0s 6s forwards;
+      typing 0.7s steps(40, end),
+      remove-caret 0s 0.8s forwards;
     font-size: 5em;
   }
   
   /* The typing effect */
   @keyframes typing {
-    from { width: 0 }
+    from { width: 0% }
     to { width: 20% }
+    
   }
   
   /* The typewriter cursor effect */
@@ -524,7 +528,7 @@
     position: absolute;
     color: #fff;
     font-size: 40px;
-    top: 15px;
+    top: 20px;
     left: 120px;
     line-height: 24px;
     font-weight: 450;
@@ -618,11 +622,11 @@ object-fit: cover;}
 
 .team-member {
   text-align: center;
-  margin: 25px;
-  padding: 20px;
+  margin: 40px;
+  padding: 30px;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.21);
+  box-shadow: 0 4px 6px rgba(110, 50, 50, 0.21);
   transition: transform 0.3s ease-in-out;
 }
 
@@ -631,11 +635,11 @@ object-fit: cover;}
 }
 
 .team-member img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .team-member h3 {
@@ -644,12 +648,13 @@ object-fit: cover;}
 }
 
 .team-member .role {
-  color: #888;
+  color: #00204c;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .fa {
-  font-size: 24px;
+  font-size: 36px;
   margin: 0 10px;
   color: #000;
   transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -657,26 +662,21 @@ object-fit: cover;}
 }
 
 .team-member:hover .fa {
-  transform: scale(1.2);
-  color: #007AFF;
+  transform: scale(1.5);
+  color: #094d97;
 }
-.video-container{
-  background-color: black;
-  color: white;
-  
-}
+
 .experience-the-transformative-container {
-  padding: 20px;
-  width: 1064px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  width: 100%;
   position: undefined;
-  letter-spacing: 0.4px;
+  letter-spacing: 2px;
   line-height: 24px;
-  text-transform: uppercase;
   display: flex;
   align-items: center;
-  height: 180px;
+  height: 100%;
   flex-shrink: 0;
-  margin-right: 223px;
 }
 .loved-by-student {
   margin: 0;
@@ -689,57 +689,69 @@ object-fit: cover;}
   line-height: 60px;
   font-weight: 500;
 }
-#replace-video-button{
-  background-color: grey;
-  color: #fff;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
-  padding: 15px 30px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.25s ease;
-  margin: 10px;
-}
 
 .of-text-analysis {
   margin: 0;
   padding: 20px;
   font-size: var(--subheading-size);
 }
-.video{
+
+.video {
   display: block;
   margin: auto;
-  width: 75%;
+  width: 75%; /* Adjust the width as per design needs */
+  height: auto; /* Maintain aspect ratio */
 }
-.video-container{
+.video-container {
   background-color: black;
   color: white;
 }
+
 .experience-the-transformative-container1 {
   width: 100%;
 }
 
 .features-heading{
-  font-family: 'Roboto Slab';
+  font-family: 'Roboto';
   font-size: 46px;
   text-align: center;
+  margin-top: 50px;
   padding: 30px;
 }
 
-.f{
+.f-container {
+  padding-right: 260px; /* Right padding as specified */
+  display: flex; /* Enables Flexbox */
+  justify-content: center; /* Center-aligns child elements horizontally */
+  align-items: center; /* Center-aligns child elements vertically */
+  flex-direction: column; /* Aligns children in a column */
+}
+
+.f {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
+  border: 2px solid #ebe5e5; /* Adds a border around each grid */
+  padding: 20px; /* Padding inside each grid for spacing around content */
+  padding-left: 90px; /* Padding inside each grid for spacing around content */
+  padding-right: 0px; /* Padding inside each grid for spacing around content */
+  align-items: center; /* Aligns items vertically centered */
 }
+
 
 .f1-img{
   grid-column-start: 2;
+  flex: 1;
+  max-width: 70%; /* Limiting image width */
+  height: auto; /* Maintain aspect ratio */
 }
 
-.f3-img{
-  grid-column-start: 2;
+.f2-img{
+  grid-column-start: 1;
+  flex: 1;
+  max-width: 60%; /* Limiting image width */
+  height: auto; /* Maintain aspect ratio */
 }
+
 
 .f2-text{
   grid-column-start: 2;
@@ -749,17 +761,25 @@ object-fit: cover;}
 .f-container{
   padding-left: 260px;
 }
-.f1-img{
-  height: 183px;
-  width: 409px;
-}
+
 
 .features{
   font-size: 28px;
   height: 100vh;
 }
 
-.Investor{
-  display: flex;
-  align-items: center;
+
+.contact-button {
+  background-color: #062b54; /* Blue color; adjust as needed */
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 20px 35px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #001933; /* Darker blue on hover */
 }

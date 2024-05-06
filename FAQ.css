@@ -9,7 +9,7 @@ h1 {
 
 .accordion {
   width: 800px;
-  margin: 90px auto;
+  margin: 10px auto;
   color: black;
   background-color: white;
   padding: 45px 45px;
@@ -17,13 +17,13 @@ h1 {
 
 .accordion .FAQcontainer {
   position: relative;
-  margin: 10px 10px;
+  margin: 20px 20px;
 }
 
 .accordion .label {
   position: relative;
   padding: 10px 0;
-  font-size: 30px;
+  font-size: 26px;
   color: black;
   cursor: pointer;
 }
@@ -56,7 +56,9 @@ h1 {
 }
 
 .accordion .FAQcontainer.active .content {
-  height: 150px;
+  height: auto;
+  padding: 10px;
+  transition: all 0.5s ease;
 }
 
 .accordion .FAQcontainer.active .label::before {
