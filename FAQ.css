@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 
 h1 {
@@ -13,6 +13,7 @@ h1 {
   color: black;
   background-color: white;
   padding: 45px 45px;
+  font-family: Montserrat;
 }
 
 .accordion .FAQcontainer {
@@ -46,7 +47,7 @@ h1 {
   text-align: justify;
   width: 780px;
   overflow: hidden;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .accordion hr {
@@ -58,7 +59,7 @@ h1 {
 .accordion .FAQcontainer.active .content {
   height: auto;
   padding: 10px;
-  transition: all 0.5s ease;
+  transition: all 0.4s ease;
 }
 
 .accordion .FAQcontainer.active .label::before {

@@ -25,23 +25,23 @@
         </div>
         <div class="heading-container">
             <div class="typewriter">
-                <p class="heading">StarcAI</p>
+                    <p class="heading" style="font-weight:bold;">StarcAI</p>
             </div>
             <div class="sub-heading">
-                <p>Take Control of your Narrative
+                    <p>Take Control of your Narrative
+                        <br>
+                        and Shape Market Behavior
+                    </p>
                     <br>
-                    and Shape Market Behavior
-                </p>
-                <br>
             </div>
             <div class="buttons">
-                <a href="https://vimeo.com/934543313" style="text-decoration: none;">
-                    <button class="features2" style="left:35% ;"> DEMO 
+                    <a href="https://vimeo.com/934543313" style="text-decoration: none;">
+                        <button class="features2" style="left:40% ;"> DEMO 
                         <span style="font-size: 40px;"> &#8599</span> 
                     </button>
                 </a>
 
-                <button class="features1" id="feature-button">FEATURES</button>
+                <button class="features1" id="feature-button" style="left: 55%;">FEATURES</button>
             </div>
         </div>
     </div>
@@ -57,7 +57,7 @@
     <div class="counter">
         <script src="index.js"></script>
         <link rel="stylesheet" href="./number-counter.css" />
-        <section class="bg-dark text-white py-5 min-vh-100" style="height: 250px;">
+        <section class="bg-dark text-white py-5 min-vh-100" style="height: 250px; font-family: Montserrat">
             <div class="container">
                 <div class="row justify-content-center text-center">
                     <div class="col-12">
@@ -90,7 +90,7 @@
     </div>
     <div class="features">
         <div class="features-heading">
-            <p class="loved-by-student">At the click of a Button
+            <p class="loved-by-student" style="font-weight: bold;">At the click of a Button</p>
             </p>
         </div>
         <div class="f-container">
@@ -121,45 +121,53 @@
             <div class="frame20"> -->
         <b class="experience-the-transformative-container" style="font-size: 40px; font-family: 'Roboto';">
             <span class="experience-the-transformative-container1">
-                <p class="loved-by-student" style="padding-left: 50px;">
+                <p class="loved-by-student" style="padding-left: 50px; padding-bottom: 10px">
                     Experience StarcAI firsthand
                 </p>
             </span>
         </b>
-        <img class="video" id="image" src="assets/StarcAI - Pessimistic.png" alt="Display Image">
+        <video class="video" id="video" src="assets/pessimism.mp4" alt="Pessimistic Text">
+        </video>
         <div style="
         position: relative;
         text-align: center;
-        padding-top: 20px;
-        padding-bottom: 50px;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 100px;
         ">
             <button id="replace-video-button1" style="font-size: 24px; padding: 20px 30px; border-radius: 15px;">
                 Original
             </button>
              <button id="replace-video-button2" style="font-size: 24px; padding: 20px 30px; border-radius: 15px;">
-
                 Rewrite
             </button>
         </div>
-        
+
         <script>
-            document.getElementById("replace-video-button1").addEventListener("click", () => {
-                document.getElementById("image").src = "assets/StarcAI - Pessimistic.png"
-                // console.log("test")
+            document.getElementById("replace-video-button1").addEventListener("click", function() {
+                document.getElementById("video").src = "assets/Pessimism.mp4";
+                document.getElementById("video").play(); // Auto-play on button click
             });
-            document.getElementById("replace-video-button2").addEventListener("click", () => {
-                document.getElementById("image").src = "assets/StarcAI - Optimistic.png"
-                // console.log("test")
+    
+            document.getElementById("replace-video-button2").addEventListener("click", function() {
+                document.getElementById("video").src = "assets/Optimism.mp4";
+                document.getElementById("video").play(); // Auto-play on button click
+            });
+    
+            let clip = document.querySelector(".video");
+            clip.addEventListener("mouseover", function(e) {
+                clip.play();
+            });
+    
+            clip.addEventListener("mouseout", function(e) {
+                clip.pause(); // Pause the video when the mouse is not over it.
             });
         </script>
-        <!-- <video src="./assets/optimism.mp4" controls></video> -->
-        <!-- </div>
-        </div> -->
     </div>
 
 
     <div style="position: relative;align-items: center; text-align: center; padding-bottom: 100px;">
-        <h1 style="font-size:40px; align-items: center; margin-top: 80px; margin-bottom: 60px; padding-right: 10px;">Reviews</h1>
+        <h1 style="font-size:40px; align-items: center; margin-top: 80px; margin-bottom: 60px; padding-right: 10px; font-family: 'Montserrat';">Reviews</h1>
         <div class="divrelative">
             <div class="divscrollbar-hide">
                 <div class="divflex">
@@ -259,8 +267,11 @@
 
                                     </div>
                                 </div>
-                                <b class="chris-y-content">Eduardo Benetti,<br>
+                                <b class="laura-haleydt-brand-container">
+                                    <p class="loved-by-student">
+                                        Eduardo Benetti,<br>
                                     Product Manager at Microsoft                                    
+                                    </p>
                                 </b>
                             </div>
                         </div>

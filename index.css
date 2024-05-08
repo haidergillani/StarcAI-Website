@@ -519,7 +519,7 @@
     text-align: center;
     font-size: 72px;
     color: #342b2b;
-    font-family: var(--font-roboto-slab);
+    font-family: Montserrat;
 
   }
   .frame5 {
@@ -737,7 +737,7 @@
     box-sizing: border-box;
     gap: 106px;
     text-align: center;
-    font-family: var(--font-roboto-slab);
+    font-family: Montserrat;
   }
   .screenshot-2024-03-23-160931 {
     width: 552px;
@@ -748,7 +748,7 @@
     margin: 50px 50px;
     font-size: 40px;
     font-weight: 500;
-    font-family: Roboto Slab;
+    font-family: Montserrat;
   }
   .h1{
     text-align: center;
@@ -1105,7 +1105,7 @@
     margin-top: -39px;
     font-size: var(--heading-h2-size);
     color: var(--color-purple);
-    font-family: var(--font-roboto);
+    font-family: Montserrat;
   }
   .frame2 {
     position: absolute;
@@ -1118,7 +1118,7 @@
     text-align: left;
     font-size: 72px;
     color: #342b2b;
-    font-family: var(--font-roboto-slab);
+    font-family: Montserrat;
   }
   .desktop-6 {
     width: 100%;
@@ -1129,7 +1129,7 @@
     text-align: center;
     font-size: 60px;
     color: var(--color-gray-100);
-    font-family: var(--font-roboto);
+    font-family: Montserrat;
   }
   
 
