@@ -460,21 +460,21 @@
 
   .heading {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
+    border-right: .15em solid rgb(1, 50, 1); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     margin-top: 3%;
     letter-spacing: .2 em; /* Adjust as needed */
     animation: 
       typing 0.7s steps(40, end),
-      remove-caret 0s 0.8s forwards;
+      remove-caret 0s 1s forwards;
     font-size: 5em;
   }
   
   /* The typing effect */
   @keyframes typing {
     from { width: 0% }
-    to { width: 20% }
+    to { width: 30% }
     
   }
   
