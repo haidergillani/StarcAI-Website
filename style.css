@@ -46,13 +46,13 @@
     padding-bottom: 0px;
     letter-spacing: normal;
     color: #342b2b;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arial';
     margin: 30px;
 }
 
 .sub-heading-page2 {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Arial';
   font-size: var(--font-size-17xl);
   font-weight: 500;
   color: var(--color-black);
@@ -188,26 +188,30 @@
     background-color: rgb(70, 7, 7);
     color: #ffffff;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0px 0px 2px 2px rgb(0,0,0);
-    padding: 15px 30px;
-    font-size: 16px;
+    padding: 20px 30px;
+    font-size: 24px;
     cursor: pointer;
     transition: 0.25s ease;
     margin: 10px;
+    font-family: 'Montserrat';
+    font-weight: 500;
   }
 
   #replace-video-button2{
     background-color: rgb(0, 85, 23);
     color: #fff;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0px 0px 2px 2px rgb(0,0,0);
-    padding: 15px 30px;
-    font-size: 16px;
+    padding: 20px 30px;
+    font-size: 24px;
     cursor: pointer;
     transition: 0.25s ease;
     margin: 10px;
+    font-family: 'Montserrat';
+    font-weight: 500;
   }
 
   .divmx-auto,
@@ -618,14 +622,16 @@
 }
 
 .team-member h3 {
-  font-weight: 700;
+  font-weight: bold;
   margin: 0;
+  font-family: 'Montserrat';
 }
 
 .team-member .role {
   color: #00204c;
   margin-bottom: 10px;
   font-size: 20px;
+  font-family: 'Montserrat';
 }
 
 .fa {
@@ -702,6 +708,7 @@
   justify-content: center; /* Center-aligns child elements horizontally */
   align-items: center; /* Center-aligns child elements vertically */
   flex-direction: column; /* Aligns children in a column */
+  font-family: 'Arial';
 }
 
 .f {
@@ -715,7 +722,6 @@
   align-items: center; /* Aligns items vertically centered */
   justify-items: center; /* Aligns items horizontally centered */
   gap: 0px; /* Reduces the distance between two elements horizontally */
-  font-family: Montserrat;
 }
 
 
