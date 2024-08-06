@@ -6,9 +6,6 @@
     <meta name="viewport" content="initial-scale=1, width=device-width" />
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./number-counter.css" />
-    <link rel="stylesheet" href="./FAQ.css"/>
-    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="./phone.css" />
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" />
@@ -16,28 +13,32 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
-    <link rel="website icon" type="img" href="assets/StarcAI - Favicon.svg">
+    <link rel="website icon" type="img"
+    href="assets/StarcAI - Favicon.svg">
+
+
 </head>
 
 <body>
     <div class="section1">
-        <div class="header" style>
+        <div class="header" style >
             <img src="assets/StarcAI - Website.png" alt="" class="logo">
         </div>
         <div class="heading-container">
             <div class="typewriter">
-                <p class="heading">StarcAI</p>
+                    <p class="heading" style="font-weight:bold;">StarcAI</p>
             </div>
             <div class="sub-heading">
-                <p>Take Control of your Narrative
+                    <p>Take Control of your Narrative
+                        <br>
+                        and Shape Market Behavior
+                    </p>
                     <br>
-                    and Shape Market Behavior
-                </p>
             </div>
             <div class="buttons">
-                <a href="https://vimeo.com/934543313" style="text-decoration: none;">
-                    <button class="features1"> DEMO
-                        <span style="font-size: 40px;"> &#8599</span>
+                    <a href="https://vimeo.com/934543313" style="text-decoration: none;">
+                        <button class="features1"> DEMO
+                        <span style="font-size: 40px;"> &#8599</span> 
                     </button>
                 </a>
 
@@ -48,7 +49,7 @@
     <div class="section2" id="section2">
         <p class="unlock-success-with">Say Goodbye to Investor Paranoia</p>
         <p class="sub-heading-page2">
-            StarcAI is what Wall Street needed
+            StarcAI is what Wall Street needed  
             <br>
             from ChatGPT or Grammarly!
         </p>
@@ -56,12 +57,12 @@
     </div>
     <div class="counter">
         <script src="index.js"></script>
-        <section class="bg-dark text-white py-5 min-vh-100">
+        <link rel="stylesheet" href="./number-counter.css" />
+        <section class="bg-dark text-white py-5 min-vh-100" style="height: 250px; font-family: Montserrat">
             <div class="container">
                 <div class="row justify-content-center text-center">
                     <div class="col-12">
-                        <h1 class="pb-3" style="font-size: 40px; font-weight: bold; margin-top: 0px; color: e0e0e0">
-                            RESULTS</h1>
+                        <h1 class="pb-3" style="font-size: 40px; font-weight: bold; margin-top: 0px; color: e0e0e0">RESULTS</h1>
                     </div>
                     <div class="col-md-4">
                         <span id="count1" class="display-4"></span>
@@ -88,11 +89,9 @@
             </div>
         </section>
     </div>
-
-
     <div class="features">
         <div class="features-heading">
-            <p class="loved-by-student text-img-heading" style="font-weight: bold; font-family: Arial">At the click of a Button</p>
+            <p class="loved-by-student" style="font-weight: bold; font-family: Arial">At the click of a Button</p>
             </p>
         </div>
         <div class="f-container">
@@ -118,16 +117,12 @@
 
         </div>
     </div>
-
-
-
     <div class="video-container">
         <!-- <div class="frame19">
             <div class="frame20"> -->
-        <b class="experience-the-transformative-container">
+        <b class="experience-the-transformative-container" style="font-size: 40px;">
             <span class="experience-the-transformative-container1">
-                <p class="loved-by-student video-heading"
-                    style="padding-left: 35px; padding-bottom: 10px; font-family: Montserrat; color:#e0e0e0">
+                <p class="loved-by-student" style="padding-left: 50px; padding-bottom: 10px; font-family: Montserrat; color:#e0e0e0">
                     Experience StarcAI firsthand
                 </p>
             </span>
@@ -144,28 +139,28 @@
             <button id="replace-video-button1">
                 Original
             </button>
-            <button id="replace-video-button2">
+             <button id="replace-video-button2">
                 Rewrite
             </button>
         </div>
 
         <script>
-            document.getElementById("replace-video-button1").addEventListener("click", function () {
+            document.getElementById("replace-video-button1").addEventListener("click", function() {
                 document.getElementById("video").src = "assets/Pessimisml.mp4";
                 document.getElementById("video").play(); // Auto-play on button click
             });
-
-            document.getElementById("replace-video-button2").addEventListener("click", function () {
+    
+            document.getElementById("replace-video-button2").addEventListener("click", function() {
                 document.getElementById("video").src = "assets/Optimisml.mp4";
                 document.getElementById("video").play(); // Auto-play on button click
             });
-
+    
             let clip = document.querySelector(".video");
-            clip.addEventListener("mouseover", function (e) {
+            clip.addEventListener("mouseover", function(e) {
                 clip.play();
             });
-
-            clip.addEventListener("mouseout", function (e) {
+    
+            clip.addEventListener("mouseout", function(e) {
                 clip.pause(); // Pause the video when the mouse is not over it.
             });
         </script>
@@ -173,17 +168,14 @@
 
 
     <div style="position: relative;align-items: center; text-align: center; padding-bottom: 100px;">
-        <h1
-            style="font-size:40px; align-items: center; margin-top: 80px; margin-bottom: 60px; padding-right: 10px; font-family: 'Montserrat';">
-            Reviews</h1>
+        <h1 style="font-size:40px; align-items: center; margin-top: 80px; margin-bottom: 60px; padding-right: 10px; font-family: 'Montserrat';">Reviews</h1>
         <div class="divrelative">
             <div class="divscrollbar-hide">
                 <div class="divflex">
                     <div class="divappearance-none" style="width: auto">
                         <div class="article">
                             <div class="Review-1">
-                                <img src="assets/cavalla.jpg" alt="Company Image"
-                                    style="max-width: 100%; height: auto; align-self: center; padding-top: 12px;">
+                                <img src="assets/cavalla.jpg" alt="Company Image" style="max-width: 100%; height: auto; align-self: center; padding-top: 12px;">
                             </div>
                             <div class="divp-5">
                                 <div class="p">
@@ -213,17 +205,14 @@
                     <div class="divappearance-none" style="width: auto">
                         <div class="article1">
                             <div class="Review-2">
-                                <img src="assets/taxGPT.svg" alt=""
-                                    style="max-width: 100%; height: auto; align-self: center; padding-top: 20px;">
+                                <img src="assets/taxGPT.svg" alt=""style="max-width: 100%; height: auto%; align-self: center; padding-top: 20px;">
 
                             </div>
                             <div class="divp-5">
                                 <div class="p1">
                                     <div class="super-impressed-taxgpt-container">
-                                        <p class="loved-by-student">StarcAI is what Wall Street needed from ChatGPT or
-                                            Grammarly.
-                                            <br><br><br>
-                                        </p>
+                                        <p class="loved-by-student">StarcAI is what Wall Street needed from ChatGPT or Grammarly.
+                                        <br><br><br></p>
                                     </div>
                                 </div>
                                 <div class="ptext-sm1">
@@ -247,7 +236,7 @@
                                 <div class="p2">
                                     <div class="super-impressed-taxgpt-container">
                                         <p class="loved-by-student">
-                                            StarcAI's biggest edge is that it truly understands
+                                            StarcAI's biggest edge is that it truly understands 
                                             how businesses communicate, what works and what doesn't fit in.
                                         </p>
 
@@ -267,18 +256,16 @@
                     <div class="divappearance-none" style="width: auto">
                         <div class="article3">
                             <div class="Review-4">
-                                <img src="./assets/Microsoft.png" alt=""
-                                    style="max-width: 100%; height: auto;align-self: center; padding-top: 10px;">
+                                <img src="./assets/Microsoft.png" alt="" style="max-width: 100%; height: auto;align-self: center; padding-top: 10px;">
 
                             </div>
                             <div class="divp-53">
                                 <div class="p3">
                                     <div class="super-impressed-taxgpt-container">
                                         <p class="loved-by-student">
-                                            I love that the user gets a quantified percentage grade,
+                                            I love that the user gets a quantified percentage grade, 
                                             as well as the highlighted key areas of improvement.
-                                            <br><br>
-                                        </p>
+                                            <br><br></p>
 
                                     </div>
                                 </div>
@@ -299,8 +286,8 @@
         </div>
     </div>
 
-    <section class="team-story-container">
-        <h1>Our Team</h1>
+    <div class="team-story-container">
+        <h1 style="font-size: 40px; margin-top: 80px; margin-bottom: 20px; font-family: Montserrat;">Our Team</h1>
         <div class="team-story">
             <div class="team-member">
                 <img src="assets/saad.jpeg" alt="Team Member 1">
@@ -324,22 +311,23 @@
         </div>
 
         <!-- Contact Us Button -->
-        <div class="contact-button">
-            <a href="mailto:founders@starcai.us">
-                <button class="btn">Contact Us</button>
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="mailto:founders@starcai.us" style="text-decoration: none;">
+                <button class="contact-button">Contact Us</button>
             </a>
             </a>
         </div>
 
-        </div>
-    </section>
+    </div>
+    </div>
 
 
-    <!--     <div>>
+<!--     <div>>
         <img src="assets/teamimage.jpeg" alt="" style="width: 100%;height: 90%;">
     </div>
--->
+--> 
     <div class="FAQ-box">
+        <link rel="stylesheet" href="FAQ.css">
         <div class="accordion-body">
             <div class="accordion">
                 <p class="faq">Ask StarcAI</p>
@@ -353,32 +341,27 @@
                 <div class="FAQcontainer">
                     <div class="label">What value does StarcAI provide to my company?</div>
                     <div class="content">
-                        Companies use our advanced sentiment analysis and proprietary LLM
+                        Companies use our advanced sentiment analysis and proprietary LLM 
                         when writing financial reports and letters to stakeholders
-                        to induce desired reactions in its investors,
-                        leading to an empirically verified 31% increase in investor confidence and a 22% increment
-                        in
-                        investment likelihood
+                        to induce desired reactions in its investors, 
+                        leading to an empirically verified 31% increase in investor confidence and a 22% increment in investment likelihood
                         for StarcAI rewritten text compared to the original company-generated text.
                     </div>
                 </div>
                 <hr>
                 <div class="FAQcontainer">
                     <div class="label">Who is this for?</div>
-                    <div class="content">StarcAI is a B2B product for public corporations and SMEs
-                        to improve their investor relations and not just anticipate, but also control
+                    <div class="content">StarcAI is a B2B product for public corporations and SMEs 
+                        to improve their investor relations and not just anticipate, but also control 
                         how the market reacts to what the company puts out.
                     </div>
                 </div>
                 <hr>
                 <div class="FAQcontainer">
                     <div class="label">How does this work?</div>
-                    <div class="content">StarcAI analyses your text using advanced sentiment analysis, finetuned on
-                        4.9
-                        Billion Tokens from
+                    <div class="content">StarcAI analyses your text using advanced sentiment analysis, finetuned on 4.9 Billion Tokens from 
                         financial reports and letters to stakeholders. It then uses a proprietary LLM to rewrite
-                        your text to induce your desired reactions in your investors based on your requirements and
-                        business context.
+                        your text to induce your desired reactions in your investors based on your requirements and business context.
                     </div>
                 </div>
                 <hr>
@@ -389,24 +372,23 @@
     </div>
     <footer>
         <div script="background-color:blue">
-            <div class="foot">
-                <p>© 2024 StarcAI</p>
-                <img class="screenshot-2024-03-23-155606-11" alt="" src="assets/StarcAI Logo.png"
-                    style="width: auto; height: 50px; border-radius: 50%;">
-                <p class="founder-email">founders@starcai.us&nbsp;&nbsp;</p>
-
-            </div>
+        <div style="display: flex; justify-content: space-between; padding: 10px;">
+        <p>© 2024 StarcAI</p>
+        <img class="screenshot-2024-03-23-155606-11" alt="" src="assets/StarcAI Logo.png" style="width: auto; height: 50px; border-radius: 50%;">
+            <p>founders@starcai.us&nbsp;&nbsp;</p>
+    
+        </div>
     </footer>
     <script src="nav.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
             // Select all anchor tags
             var links = document.getElementsByTagName('a');
-
+        
             // Set each link to open in a new tab
             for (var i = 0; i < links.length; i++) {
                 links[i].target = '_blank';
             }
         });
-    </script>
+        </script>
 </body>

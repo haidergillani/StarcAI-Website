@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 
-/* h1 {
+h1 {
   text-align: center;
   margin: 40px 0;
-} */
+}
 
 
 .accordion {
   width: 800px;
-  margin: 0px auto;
+  margin: 10px auto;
   color: black;
   background-color: white;
   padding: 45px 45px;
